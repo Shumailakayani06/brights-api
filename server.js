@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) =>{
-    res.send('Graduation Project Start Up!!')
+    res.send('One more time')
 })
 
 app.listen(PORT, () => {
