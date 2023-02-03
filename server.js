@@ -12,5 +12,5 @@ app.get('/', (req, res) =>{
 })
 
 app.listen(PORT, () => {
-    console.log(`Brights-api listening to port: ${PORT}`);
+    console.log(`this is just a test: ${PORT}`);
 })
